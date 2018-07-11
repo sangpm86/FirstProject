@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0DDDF720F5995600129A77 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DDDF620F5995600129A77 /* UIViewExtension.swift */; };
+		3D0DDDF920F5A29200129A77 /* B0010980_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DDDF820F5A29200129A77 /* B0010980_main.jpg */; };
 		3D23E0F220F45D4100C4A3D2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23E0F120F45D4100C4A3D2 /* Friend.swift */; };
 		3D23E0F420F45EDC00C4A3D2 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23E0F320F45EDC00C4A3D2 /* FriendView.swift */; };
 		3D23E0F720F465A200C4A3D2 /* pexels-photo-658687.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3D23E0F620F465A200C4A3D2 /* pexels-photo-658687.jpeg */; };
 		3D23E0F920F4660200C4A3D2 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23E0F820F4660200C4A3D2 /* FriendViewController.swift */; };
 		3D2CEBCA20F4A92B00D1B233 /* index.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D2CEBC820F4A92B00D1B233 /* index.jpg */; };
 		3D2CEBCB20F4A92B00D1B233 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D2CEBC920F4A92B00D1B233 /* images.jpg */; };
+		3D2CEBCE20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CEBCD20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift */; };
 		3D45E6A020EDF37A00595193 /* View01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E69F20EDF37A00595193 /* View01ViewController.swift */; };
 		3D45E6A220EE1DD100595193 /* View02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E6A120EE1DD100595193 /* View02ViewController.swift */; };
 		3D45E6A420EE2A7500595193 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E6A320EE2A7500595193 /* CalculatorViewController.swift */; };
@@ -23,12 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0DDDF620F5995600129A77 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3D0DDDF820F5A29200129A77 /* B0010980_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = B0010980_main.jpg; sourceTree = "<group>"; };
 		3D23E0F120F45D4100C4A3D2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		3D23E0F320F45EDC00C4A3D2 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		3D23E0F620F465A200C4A3D2 /* pexels-photo-658687.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-658687.jpeg"; sourceTree = "<group>"; };
 		3D23E0F820F4660200C4A3D2 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		3D2CEBC820F4A92B00D1B233 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.jpg; sourceTree = "<group>"; };
 		3D2CEBC920F4A92B00D1B233 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		3D2CEBCD20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDelegateControllerViewController.swift; sourceTree = "<group>"; };
 		3D45E69F20EDF37A00595193 /* View01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View01ViewController.swift; sourceTree = "<group>"; };
 		3D45E6A120EE1DD100595193 /* View02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View02ViewController.swift; sourceTree = "<group>"; };
 		3D45E6A320EE2A7500595193 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0DDDF520F5991800129A77 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DDDF620F5995600129A77 /* UIViewExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		3D23E0F020F45CF600C4A3D2 /* NsFriend */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +78,20 @@
 		3D23E0F520F4653D00C4A3D2 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DDDF820F5A29200129A77 /* B0010980_main.jpg */,
 				3D2CEBC920F4A92B00D1B233 /* images.jpg */,
 				3D2CEBC820F4A92B00D1B233 /* index.jpg */,
 				3D23E0F620F465A200C4A3D2 /* pexels-photo-658687.jpeg */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		3D2CEBCC20F4B75600D1B233 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CEBCD20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		3DC0817320EB19970058E3E6 = {
@@ -90,6 +113,8 @@
 		3DC0817E20EB19970058E3E6 /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DDDF520F5991800129A77 /* extension */,
+				3D2CEBCC20F4B75600D1B233 /* Delegate */,
 				3D23E0F520F4653D00C4A3D2 /* image */,
 				3D23E0F020F45CF600C4A3D2 /* NsFriend */,
 				3DC0817F20EB19970058E3E6 /* AppDelegate.swift */,
@@ -167,6 +192,7 @@
 				3D2CEBCB20F4A92B00D1B233 /* images.jpg in Resources */,
 				3DC0818720EB19970058E3E6 /* Assets.xcassets in Resources */,
 				3D23E0F720F465A200C4A3D2 /* pexels-photo-658687.jpeg in Resources */,
+				3D0DDDF920F5A29200129A77 /* B0010980_main.jpg in Resources */,
 				3DC0818520EB19970058E3E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0DDDF720F5995600129A77 /* UIViewExtension.swift in Sources */,
 				3D23E0F420F45EDC00C4A3D2 /* FriendView.swift in Sources */,
 				3D45E6A420EE2A7500595193 /* CalculatorViewController.swift in Sources */,
 				3D45E6A020EDF37A00595193 /* View01ViewController.swift in Sources */,
@@ -185,6 +212,7 @@
 				3D23E0F920F4660200C4A3D2 /* FriendViewController.swift in Sources */,
 				3D23E0F220F45D4100C4A3D2 /* Friend.swift in Sources */,
 				3DC0818220EB19970058E3E6 /* ViewController.swift in Sources */,
+				3D2CEBCE20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift in Sources */,
 				3DC0818020EB19970058E3E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

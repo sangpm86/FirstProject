@@ -8,16 +8,6 @@
 
 import UIKit
 
-extension UIView{
-    func right() -> CGFloat{
-        return self.frame.origin.x + self.frame.size.width
-    }
-    
-    func bottm() ->CGFloat{
-        return self.frame.origin.y + self.frame.size.height
-    }
-}
-
 class FriendView: UIView {
     var img:UIImageView!
     var lb:UILabel!
@@ -35,6 +25,8 @@ class FriendView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    
+    
     func loadView(i_width:Int){
         
         img = UIImageView(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
@@ -48,7 +40,7 @@ class FriendView: UIView {
         self.addSubview(lb)
         
         
-        lbdesc = UILabel(frame: CGRect(x: lb.frame.origin.x, y: lb.bottm() + 10 , width: lb.frame.size.width , height: img.frame.size.height - lb.frame.size.height - 10 ))
+        lbdesc = UILabel(frame: CGRect(x: lb.frame.origin.x, y: lb.bottom() + 10 , width: lb.frame.size.width , height: img.frame.size.height - lb.frame.size.height - 10 ))
         lbdesc.backgroundColor = .red
         lbdesc.textColor = .white
         lbdesc.numberOfLines = 3

@@ -25,7 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        window?.rootViewController = UINavigationController(rootViewController: View01ViewController())
 //        window?.rootViewController = CalculatorViewController()
-        window?.rootViewController = FriendViewController()
+//        window?.rootViewController = FriendViewController()
+        window?.rootViewController = ButtonDelegateControllerViewController()
         return true
     }
     
