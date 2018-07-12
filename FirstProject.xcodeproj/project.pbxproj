@@ -19,10 +19,15 @@
 		3D45E6A020EDF37A00595193 /* View01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E69F20EDF37A00595193 /* View01ViewController.swift */; };
 		3D45E6A220EE1DD100595193 /* View02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E6A120EE1DD100595193 /* View02ViewController.swift */; };
 		3D45E6A420EE2A7500595193 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45E6A320EE2A7500595193 /* CalculatorViewController.swift */; };
+		3D85979020F736AE00841E08 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85978F20F736AE00841E08 /* DemoViewController.swift */; };
+		3D85979220F7473200841E08 /* FriendTbCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85979120F7473200841E08 /* FriendTbCellTableViewCell.swift */; };
+		3DC01ACE20F5E35100A7831C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC01ACD20F5E35100A7831C /* LeftViewController.swift */; };
 		3DC0818020EB19970058E3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0817F20EB19970058E3E6 /* AppDelegate.swift */; };
 		3DC0818220EB19970058E3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0818120EB19970058E3E6 /* ViewController.swift */; };
 		3DC0818520EB19970058E3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0818320EB19970058E3E6 /* Main.storyboard */; };
 		3DC0818720EB19970058E3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0818620EB19970058E3E6 /* Assets.xcassets */; };
+		3DF16C0920F5D95F008BD069 /* CustomSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF16C0820F5D95F008BD069 /* CustomSlideViewController.swift */; };
+		3DF16C0C20F5DC71008BD069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF16C0B20F5DC71008BD069 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +43,17 @@
 		3D45E69F20EDF37A00595193 /* View01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View01ViewController.swift; sourceTree = "<group>"; };
 		3D45E6A120EE1DD100595193 /* View02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View02ViewController.swift; sourceTree = "<group>"; };
 		3D45E6A320EE2A7500595193 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		3D85978F20F736AE00841E08 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		3D85979120F7473200841E08 /* FriendTbCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTbCellTableViewCell.swift; sourceTree = "<group>"; };
+		3DC01ACD20F5E35100A7831C /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		3DC0817C20EB19970058E3E6 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC0817F20EB19970058E3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC0818120EB19970058E3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DC0818420EB19970058E3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC0818620EB19970058E3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC0818B20EB19970058E3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF16C0820F5D95F008BD069 /* CustomSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlideViewController.swift; sourceTree = "<group>"; };
+		3DF16C0B20F5DC71008BD069 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,6 @@
 		3D0DDDF520F5991800129A77 /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				3D0DDDF620F5995600129A77 /* UIViewExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -94,6 +103,15 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		3DC01ACF20F5FE4700A7831C /* UiTable */ = {
+			isa = PBXGroup;
+			children = (
+				3D85978F20F736AE00841E08 /* DemoViewController.swift */,
+				3D85979120F7473200841E08 /* FriendTbCellTableViewCell.swift */,
+			);
+			path = UiTable;
+			sourceTree = "<group>";
+		};
 		3DC0817320EB19970058E3E6 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +131,10 @@
 		3DC0817E20EB19970058E3E6 /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				3DC01ACF20F5FE4700A7831C /* UiTable */,
+				3DF16C0A20F5DC06008BD069 /* SlideMenu */,
 				3D0DDDF520F5991800129A77 /* extension */,
+				3D0DDDF620F5995600129A77 /* UIViewExtension.swift */,
 				3D2CEBCC20F4B75600D1B233 /* Delegate */,
 				3D23E0F520F4653D00C4A3D2 /* image */,
 				3D23E0F020F45CF600C4A3D2 /* NsFriend */,
@@ -127,6 +148,16 @@
 				3D45E6A320EE2A7500595193 /* CalculatorViewController.swift */,
 			);
 			path = FirstProject;
+			sourceTree = "<group>";
+		};
+		3DF16C0A20F5DC06008BD069 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3DF16C0820F5D95F008BD069 /* CustomSlideViewController.swift */,
+				3DF16C0B20F5DC71008BD069 /* MainViewController.swift */,
+				3DC01ACD20F5E35100A7831C /* LeftViewController.swift */,
+			);
+			path = SlideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,11 +238,16 @@
 				3D0DDDF720F5995600129A77 /* UIViewExtension.swift in Sources */,
 				3D23E0F420F45EDC00C4A3D2 /* FriendView.swift in Sources */,
 				3D45E6A420EE2A7500595193 /* CalculatorViewController.swift in Sources */,
+				3DF16C0C20F5DC71008BD069 /* MainViewController.swift in Sources */,
+				3DC01ACE20F5E35100A7831C /* LeftViewController.swift in Sources */,
 				3D45E6A020EDF37A00595193 /* View01ViewController.swift in Sources */,
+				3DF16C0920F5D95F008BD069 /* CustomSlideViewController.swift in Sources */,
 				3D45E6A220EE1DD100595193 /* View02ViewController.swift in Sources */,
+				3D85979020F736AE00841E08 /* DemoViewController.swift in Sources */,
 				3D23E0F920F4660200C4A3D2 /* FriendViewController.swift in Sources */,
 				3D23E0F220F45D4100C4A3D2 /* Friend.swift in Sources */,
 				3DC0818220EB19970058E3E6 /* ViewController.swift in Sources */,
+				3D85979220F7473200841E08 /* FriendTbCellTableViewCell.swift in Sources */,
 				3D2CEBCE20F4B78300D1B233 /* ButtonDelegateControllerViewController.swift in Sources */,
 				3DC0818020EB19970058E3E6 /* AppDelegate.swift in Sources */,
 			);
@@ -341,7 +377,6 @@
 		3DC0818F20EB19970058E3E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirstProject/Info.plist;
@@ -356,7 +391,6 @@
 		3DC0819020EB19970058E3E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirstProject/Info.plist;

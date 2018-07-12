@@ -26,8 +26,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.rootViewController = UINavigationController(rootViewController: View01ViewController())
 //        window?.rootViewController = CalculatorViewController()
 //        window?.rootViewController = FriendViewController()
-        window?.rootViewController = ButtonDelegateControllerViewController()
+//        window?.rootViewController = ButtonDelegateControllerViewController()
+//        window?.rootViewController = UINavigationController(rootViewController: MainViewController())
+        window?.rootViewController = DemoViewController()
+        testConsole()
         return true
+    }
+    
+    func testConsole(){
+//        for i in (1...10).reversed() {
+//            print(i)
+//        }
+        
+//        for i in stride(from: 0, to: 11, by: 2) {
+//            print(i)
+//        }
+//        let temp = "Sang_pham"
+//        print(temp.lo)
+
     }
     
 //    func intCalulator(){
